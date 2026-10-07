@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos · Tomás Raiter</title>
+  <meta name="description" content="Proyectos de Tomás Raiter: To The Top y Casino, con links a sus repositorios en GitHub.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Tomás Raiter</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Inicio</a>
+        <a href="proyectos.html" aria-current="page">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap page-title">
+      <h1>Proyectos</h1>
+      <p>Dos trabajos que muestran cómo programo. Cada uno tiene el link a su repositorio con todo el código.</p>
+    </div>
+
+    <div class="wrap">
+
+      <!-- ===== To The Top ===== -->
+      <article class="project">
+        <div class="shot">
+          <!-- Poné una captura del juego en img/tothetop.png -->
+          <img src="img/tothetop.png" alt="Captura del juego To The Top" onerror="this.remove()">
+          <span class="fallback">To The Top</span>
+        </div>
+        <div>
+          <h2>To The Top</h2>
+          <p class="meta">Proyecto en equipo de tres personas</p>
+          <p>Juego 2D cooperativo de escalada hecho con LibGDX. Usa Box2D para la física y Tiled para armar los mapas.</p>
+          <ul class="chips">
+            <li>Java 21</li>
+            <li>LibGDX</li>
+            <li>Box2D</li>
+            <li>Tiled</li>
+          </ul>
+          <a class="btn primary" href="https://github.com/Jubiito1/ToTheTop" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+        </div>
+      </article>
+
+      <!-- ===== Casino ===== -->
+      <article class="project">
+        <div class="shot">
+          <!-- Poné una captura del programa en img/casino.png -->
+          <img src="img/casino.png" alt="Captura del proyecto Casino" onerror="this.remove()">
+          <span class="fallback">Casino</span>
+        </div>
+        <div>
+          <h2>Casino</h2>
+          <p class="meta">Proyecto personal</p>
+          <!-- TODO: contá en una o dos frases qué hace tu Casino (qué juegos tiene, cómo se juega, etc.) -->
+          <p>Proyecto en Java desarrollado con IntelliJ IDEA. En el repositorio está todo el código fuente.</p>
+          <ul class="chips">
+            <li>Java</li>
+          </ul>
+          <a class="btn primary" href="https://github.com/TomasRaiter/Casino" target="_blank" rel="noopener">Ver repositorio en GitHub</a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year">2026</span> Tomás Raiter</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
